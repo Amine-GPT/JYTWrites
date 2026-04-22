@@ -1,6 +1,6 @@
 # Writer Portfolio Site
 
-A minimal, editorial 5-page portfolio site for a writer — modeled on the layout of [elly-howard.com](https://www.elly-howard.com/). Pure HTML + CSS. No build step, no framework, no tracking. Easy to edit, free to host on GitHub Pages.
+A minimal, editorial 5-page portfolio site for a writer — modeled on the layout of another writer. Pure HTML + CSS. No build step, no framework, no tracking. Easy to edit, free to host on GitHub Pages.
 
 The site currently ships populated with sample content for a fictional writer ("Jess Merrow") so you can see what it looks like filled in. Replacing that with your partner's real content is a find-and-replace job.
 
