@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Short Films — Jess Merrow</title>
+  <meta name="description" content="Short films by Jess Merrow.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html">Jess Merrow</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="films.html" class="active">Short Films</a>
+      <a href="books.html">Books</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <hr class="rule-top">
+
+  <main class="wrap">
+    <h1 class="page-title">Short <em>Films</em></h1>
+
+    <!--
+      =================================================================
+      HOW TO ADD OR EDIT A FILM
+      =================================================================
+      Each <article class="film"> below is ONE film. Copy a whole block
+      and paste it to add more.
+
+      The .film-media block has 3 possible contents — pick ONE per film
+      and delete the other two:
+
+        OPTION A — Poster image that links out  (default below)
+        OPTION B — Vimeo embed (plays inline on your site)
+        OPTION C — YouTube embed (plays inline on your site)
+
+      Getting embed URLs:
+        Vimeo:   Share → Embed → copy the src from the iframe
+                 (https://player.vimeo.com/video/XXXXXXXXX)
+        YouTube: Share → Embed → copy the src from the iframe
+                 (https://www.youtube.com/embed/XXXXXXXXXXX)
+      =================================================================
+    -->
+
+    <div class="film-grid">
+
+      <!-- ============ FILM 1 — POSTER + EXTERNAL LINK ============ -->
+      <article class="film">
+        <div class="film-media">
+          <!-- EDIT: poster image. Right now: editorial placeholder at images/film-softboiled.svg -->
+          <img src="images/film-softboiled.svg"
+               alt="Poster for Softboiled">
+        </div>
+        <!-- EDIT: title -->
+        <h2>"Softboiled"</h2>
+        <!-- EDIT: genre · festivals · year -->
+        <p class="meta">Comedy Short · BAMcinemaFest 2023 · Nashville Film Fest 2023</p>
+        <!-- EDIT: logline -->
+        <p class="logline">
+          A young woman begins to suspect her sourdough starter has
+          opinions about her choices.
+        </p>
+        <!-- EDIT: credits -->
+        <p class="credit">Written and directed by Jess Merrow.</p>
+        <!-- EDIT: where "Watch" goes. For password-protected films, point to contact.html -->
+        <a class="watch" href="https://vimeo.com">Watch</a>
+      </article>
+
+      <!-- ============ FILM 2 — VIMEO EMBED example (see commented alt below) ============ -->
+      <article class="film">
+        <div class="film-media">
+          <!-- DEMO: showing a poster placeholder so the page previews without a real video ID.
+               TO EMBED A REAL VIMEO VIDEO: delete the <img> below and uncomment the <iframe>.
+               Replace the numeric ID with your Vimeo video ID (from Share → Embed). -->
+          <img src="images/film-glasseye.svg"
+               alt="Poster for Glass Eye Molly">
+          <!--
+          <iframe src="https://player.vimeo.com/video/YOUR_VIDEO_ID?title=0&byline=0&portrait=0"
+                  title="Glass Eye Molly"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowfullscreen></iframe>
+          -->
+        </div>
+        <h2>"Glass Eye Molly"</h2>
+        <p class="meta">Drama Short · Atlanta Film Festival 2022</p>
+        <p class="logline">
+          A glassblower in rural West Virginia confronts the mother
+          she invented to get through her twenties.
+        </p>
+        <p class="credit">Written by Jess Merrow, directed by Sam Okonkwo.</p>
+        <a class="watch" href="https://vimeo.com">Watch</a>
+      </article>
+
+      <!-- ============ FILM 3 — POSTER + "CONTACT TO WATCH" ============ -->
+      <article class="film">
+        <div class="film-media">
+          <img src="images/film-quiet.svg"
+               alt="Poster for The Quiet Part Loud">
+        </div>
+        <h2>"The Quiet Part Loud"</h2>
+        <p class="meta">Comedy Short · 2021</p>
+        <p class="logline">
+          Two roommates stop speaking when one of them realizes the
+          other's thoughts have begun to leak.
+        </p>
+        <p class="credit">Written and directed by Jess Merrow.</p>
+        <a class="watch" href="contact.html">Contact to Watch</a>
+      </article>
+
+      <!-- ============ ADD MORE FILMS BELOW BY COPYING A BLOCK ABOVE ============ -->
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <a href="mailto:jess@jessmerrow.com">jess@jessmerrow.com</a>
+  </footer>
+
+</body>
+</html>
